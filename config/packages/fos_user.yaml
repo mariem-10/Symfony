@@ -1,0 +1,7 @@
+fos_user:
+  db_driver: orm
+  firewall_name: main
+  user_class: App\Entity\User
+  from_email:
+    address: "mery@my_symfony4.com"
+    sender_name: "mery@my_symfony4.com"
